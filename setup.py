@@ -14,10 +14,10 @@ target = Executable(
 
 # SETUP CX FREEZE
 setup(
-    name = "PyDracula",
+    name = "Globalstratos Main UI",
     version = "1.0",
-    description = "Modern GUI for Python applications",
-    author = "Wanderson M. Pimenta",
+    description = "Frontend control system for data processing",
+    author = "Ryan Blumenow",
     options = {'build_exe' : {'include_files' : files}},
     executables = [target]
     
