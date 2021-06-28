@@ -3,13 +3,13 @@ import os
 from cx_Freeze import setup, Executable
 
 # ADD FILES
-files = ['icon.ico','themes/']
+files = ['GSLogo.ico','themes/']
 
 # TARGET
 target = Executable(
     script="main.py",
     base="Win32GUI",
-    icon="icon.ico"
+    icon="GSLogo.ico"
 )
 
 # SETUP CX FREEZE
