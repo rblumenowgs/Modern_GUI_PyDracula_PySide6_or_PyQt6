@@ -260,5 +260,6 @@
     <file>images/icons/icon_restore.png</file>
     <file>images/icons/icon_settings.png</file>
     <file>images/icons/test.png</file>
+    <file>GSLogo.ico</file>
   </qresource>
 </RCC>
