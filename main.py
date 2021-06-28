@@ -71,6 +71,7 @@ class MainWindow(QMainWindow):
         widgets.btn_widgets.clicked.connect(self.buttonClick)
         widgets.btn_new.clicked.connect(self.buttonClick)
         widgets.btn_save.clicked.connect(self.buttonClick)
+        widgets.btn_test.clicked.connect(self.buttonClick)
 
         # EXTRA LEFT BOX
         def openCloseLeftBox():
@@ -134,6 +135,9 @@ class MainWindow(QMainWindow):
 
         if btnName == "btn_save":
             print("Save BTN clicked!")
+
+        if btnName == "btn_test":
+            print("Save test clicked!")
 
         # PRINT BTN NAME
         print(f'Button "{btnName}" pressed!')
